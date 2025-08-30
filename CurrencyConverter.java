@@ -335,3 +335,4 @@ public class CurrencyConverter extends JFrame implements ActionListener {
         SwingUtilities.invokeLater(() -> new CurrencyConverter());
     }
 }
+
