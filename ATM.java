@@ -3,10 +3,8 @@ import java.util.Scanner;
 public class ATM {
     static double balance = 10000; // Initial balance
     static int pin = 1234; // Default PIN
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
         System.out.print("Enter ATM PIN: ");
         int enteredPin = sc.nextInt();
 
@@ -71,4 +69,5 @@ public class ATM {
         sc.close();
     }
 }
+
 
