@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class CurrencyConverter extends JFrame implements ActionListener {
-
+    
     private JLabel lblTitle, lblAmount, lblResult, lblTime;
     private JTextField txtAmount;
     private JComboBox<String> comboFrom, comboTo;
@@ -335,4 +335,5 @@ public class CurrencyConverter extends JFrame implements ActionListener {
         SwingUtilities.invokeLater(() -> new CurrencyConverter());
     }
 }
+
 
