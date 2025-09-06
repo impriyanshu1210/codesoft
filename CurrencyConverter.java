@@ -33,7 +33,7 @@ public class CurrencyConverter extends JFrame implements ActionListener {
     private void initializeCurrencyData() {
         exchangeRates = new HashMap<>();
         exchangeRates.put("USD", 1.0);
-        exchangeRates.put("INR", 82.0);
+        exchangeRates.put("INR", 87.50);
         exchangeRates.put("EUR", 0.92);
         exchangeRates.put("GBP", 0.81);
         exchangeRates.put("AUD", 1.50);
@@ -335,6 +335,7 @@ public class CurrencyConverter extends JFrame implements ActionListener {
         SwingUtilities.invokeLater(() -> new CurrencyConverter());
     }
 }
+
 
 
 
